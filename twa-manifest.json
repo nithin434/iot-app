@@ -1,0 +1,67 @@
+{
+  "packageId": "app.vercel.iot_app_omega.twa",
+  "host": "iot-app-omega.vercel.app",
+  "name": "IoT Marketplace",
+  "launcherName": "IoT Store",
+  "display": "standalone",
+  "themeColor": "#2563EB",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://images.deepai.org/machine-learning-models/50c039053c6941528c5522e8db312af4/cute-creature-generator-thumb.jpg",
+  "maskableIconUrl": "https://images.deepai.org/machine-learning-models/50c039053c6941528c5522e8db312af4/cute-creature-generator-thumb.jpg",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\nithi\\Downloads\\iot-marketplace-app\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Browse Products",
+      "shortName": "Products",
+      "url": "https://iot-app-omega.vercel.app/catalog",
+      "chosenIconUrl": "https://iot-app-omega.vercel.app/assets/icon-96.png"
+    },
+    {
+      "name": "View Cart",
+      "shortName": "Cart",
+      "url": "https://iot-app-omega.vercel.app/cart",
+      "chosenIconUrl": "https://iot-app-omega.vercel.app/assets/icon-96.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://iot-app-omega.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    },
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://iot-app-omega.vercel.app/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
