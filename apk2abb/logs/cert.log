@@ -1,0 +1,10 @@
+[2026-02-15 18:32:18] ============================================================
+[2026-02-15 18:32:18] Certificate Manager
+[2026-02-15 18:32:18] ============================================================
+[2026-02-15 18:32:18] 🔐 Creating keystore: /home/nithin/Downloads/iot-app-main/apk2abb/certs/iot_marketplace_app.keystore
+[2026-02-15 18:32:18] ✓ Keystore created successfully
+[2026-02-15 18:32:18]   Location: /home/nithin/Downloads/iot-app-main/apk2abb/certs/iot_marketplace_app.keystore
+[2026-02-15 18:32:18]   Alias: iot_marketplace
+[2026-02-15 18:32:18] ✓ Keystore setup completed
+[2026-02-15 18:32:18] 🔍 Keystore Information:
+[2026-02-15 18:32:18] ============================================================

@@ -1,0 +1,98 @@
+[2026-02-15 18:36:29] ============================================================
+[2026-02-15 18:36:29] APK to AAB Conversion
+[2026-02-15 18:36:29] ============================================================
+[2026-02-15 18:36:29] 🔍 Checking requirements...
+[2026-02-15 18:36:29] ✓ Java is installed
+[2026-02-15 18:36:29] ✓ Bundletool found
+[2026-02-15 18:36:29] ✓ Keystore found
+[2026-02-15 18:36:41] ============================================================
+[2026-02-15 18:36:41] APK to AAB Conversion
+[2026-02-15 18:36:41] ============================================================
+[2026-02-15 18:36:41] 🔍 Checking requirements...
+[2026-02-15 18:36:41] ✓ Java is installed
+[2026-02-15 18:36:41] ✓ Bundletool found
+[2026-02-15 18:36:41] ✓ Keystore found
+[2026-02-15 18:36:41] 📦 Converting APK to AAB...
+[2026-02-15 18:36:41]   Input: ../iot-marketplace-app.apk
+[2026-02-15 18:36:41]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app.aab
+[2026-02-15 18:36:41]   [1/3] Building AAB from APK...
+[2026-02-15 18:36:41] ✗ Bundle build failed: [BT:1.15.6] Error: File 'iot-marketplace-app.apk' is expected to have '.zip' extension.
+java.lang.IllegalArgumentException: File 'iot-marketplace-app.apk' is expected to have '.zip' extension.
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:453)
+	at com.android.tools.build.bundletool.model.utils.files.FilePreconditions.checkFileHasExtension(FilePreconditions.java:68)
+	at com.android.tools.build.bundletool.model.utils.files.FilePreconditions.checkFileHasExtension(FilePreconditions.java:63)
+	at com.android.tools.build.bundletool.commands.BuildBundleCommand.lambda$validateInput$2(BuildBundleCommand.java:279)
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422)
+	at com.android.tools.build.bundletool.commands.BuildBundleCommand.validateInput(BuildBundleCommand.java:277)
+	at com.android.tools.build.bundletool.commands.BuildBundleCommand.execute(BuildBundleCommand.java:201)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:79)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:55)
+
+[2026-02-15 18:37:00] ============================================================
+[2026-02-15 18:37:00] APK to AAB Conversion
+[2026-02-15 18:37:00] ============================================================
+[2026-02-15 18:37:00] 🔍 Checking requirements...
+[2026-02-15 18:37:00] ✓ Java is installed
+[2026-02-15 18:37:00] ✓ Bundletool found
+[2026-02-15 18:37:00] ✓ Keystore found
+[2026-02-15 18:37:00] 📦 Converting APK to AAB...
+[2026-02-15 18:37:00]   Input: ../iot-marketplace-app.apk
+[2026-02-15 18:37:00]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app.aab
+[2026-02-15 18:37:00]   [1/3] Preparing APK module...
+[2026-02-15 18:37:00]   ✓ Module prepared
+[2026-02-15 18:37:00]   [2/3] Building AAB...
+[2026-02-15 18:37:00]   ✓ AAB structure created
+[2026-02-15 18:37:00]   ✓ AAB created successfully (0.06 MB)
+[2026-02-15 18:37:00] 🔐 Signing AAB...
+[2026-02-15 18:37:00]   Input: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app.aab
+[2026-02-15 18:37:00]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app-signed.aab
+[2026-02-15 18:37:00]   ✓ AAB signed successfully
+[2026-02-15 18:37:00] 📋 AAB Information:
+[2026-02-15 18:37:00]   Could not read manifest: [BT:1.15.6] Error: File 'base/manifest/AndroidManifest.xml' not found.
+com.android.tools.build.bundletool.model.exceptions.InvalidBundleException: File 'base/manifest/AndroidManifest.xml' not found.
+	at com.android.tools.build.bundletool.model.exceptions.UserExceptionBuilder.build(UserExceptionBuilder.java:58)
+	at com.android.tools.build.bundletool.commands.DumpManager.extractAndParse(DumpManager.java:198)
+	at com.android.tools.build.bundletool.commands.DumpManager.extractAndParse(DumpManager.java:181)
+	at com.android.tools.build.bundletool.commands.DumpManager.printManifest(DumpManager.java:78)
+	at com.android.tools.build.bundletool.commands.DumpCommand.execute(DumpCommand.java:153)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:129)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:55)
+
+[2026-02-15 18:37:00] ============================================================
+[2026-02-15 18:37:00] ✓ Conversion completed!
+[2026-02-15 18:37:00]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app.aab
+[2026-02-15 18:37:00] ============================================================
+[2026-02-15 18:37:52] ============================================================
+[2026-02-15 18:37:52] APK to AAB Conversion
+[2026-02-15 18:37:52] ============================================================
+[2026-02-15 18:37:52] 🔍 Checking requirements...
+[2026-02-15 18:37:52] ✓ Java is installed
+[2026-02-15 18:37:52] ✓ Bundletool found
+[2026-02-15 18:37:52] ✓ Keystore found
+[2026-02-15 18:37:52] 📦 Converting APK to AAB...
+[2026-02-15 18:37:52]   Input: ../iot-marketplace-app (1).apk
+[2026-02-15 18:37:52]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app_(1).aab
+[2026-02-15 18:37:52]   [1/3] Preparing APK module...
+[2026-02-15 18:37:52]   ✓ Module prepared
+[2026-02-15 18:37:52]   [2/3] Building AAB...
+[2026-02-15 18:37:52]   ✓ AAB structure created
+[2026-02-15 18:37:52]   ✓ AAB created successfully (0.06 MB)
+[2026-02-15 18:37:52] 🔐 Signing AAB...
+[2026-02-15 18:37:52]   Input: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app_(1).aab
+[2026-02-15 18:37:52]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app_(1)-signed.aab
+[2026-02-15 18:37:52]   ✓ AAB signed successfully
+[2026-02-15 18:37:52] 📋 AAB Information:
+[2026-02-15 18:37:52]   Could not read manifest: [BT:1.15.6] Error: File 'base/manifest/AndroidManifest.xml' not found.
+com.android.tools.build.bundletool.model.exceptions.InvalidBundleException: File 'base/manifest/AndroidManifest.xml' not found.
+	at com.android.tools.build.bundletool.model.exceptions.UserExceptionBuilder.build(UserExceptionBuilder.java:58)
+	at com.android.tools.build.bundletool.commands.DumpManager.extractAndParse(DumpManager.java:198)
+	at com.android.tools.build.bundletool.commands.DumpManager.extractAndParse(DumpManager.java:181)
+	at com.android.tools.build.bundletool.commands.DumpManager.printManifest(DumpManager.java:78)
+	at com.android.tools.build.bundletool.commands.DumpCommand.execute(DumpCommand.java:153)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:129)
+	at com.android.tools.build.bundletool.BundleToolMain.main(BundleToolMain.java:55)
+
+[2026-02-15 18:37:52] ============================================================
+[2026-02-15 18:37:52] ✓ Conversion completed!
+[2026-02-15 18:37:52]   Output: /home/nithin/Downloads/iot-app-main/apk2abb/output/iot-marketplace-app_(1).aab
+[2026-02-15 18:37:52] ============================================================
